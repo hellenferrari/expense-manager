@@ -11,7 +11,7 @@
 // opt-in, read http://bit.ly/CRA-PWA
 
 
-const webpack = require('webpack');
+//const webpack = require('webpack');
 
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
