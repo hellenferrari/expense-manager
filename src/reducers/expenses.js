@@ -1,3 +1,5 @@
+import { bindActionCreators } from "../../../../../../Users/hellen/Library/Caches/typescript/3.4.3/node_modules/redux";
+
 //Expenses Reducer
 
 const expensesReducerDefaultState = [];
@@ -23,6 +25,8 @@ const expensesReducer = (state = expensesReducerDefaultState, action ) => {
                     return expense;
                 }
             });
+        case 'SET_EXPENSES':
+            return action.expenses;
         default: 
             return state;
     }
